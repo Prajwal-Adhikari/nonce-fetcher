@@ -1,0 +1,11 @@
+[package]
+name = "etst"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.31.0"
+base64 = "0.22.0"
+borsh = { version = "1.5.5", features = ["std"] }
+thiserror = "1.0"
+bytemuck = "1.22.0"
